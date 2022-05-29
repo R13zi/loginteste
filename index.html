@@ -9,7 +9,7 @@
     </style>
 </head>
 <body>
-    </hl> Login consedido com sucesso! </hl>
+    </hl> Redirecionando você! </hl>
     <script>
       var a1 = window.prompt ("Login:")
       var logintoken = 0
@@ -24,16 +24,17 @@
       if (logintoken ==1){
         var a2= window.prompt("Senha:")
       }
-      if (a2 == "Fofisofi20"){
+      if (a2 == "Teste123"){
         logintoken =2
         console.log (logintoken)
+      }
+      else {
+        window.location.href = "https://www.youtube.com/watch?v=7z9RMd-FH4Y";
       }
       if (logintoken == 2) {
         alert1= window.confirm ("Login:"+a1+"\nSenha:"+a2)
           window.alert ("Login concedido")
-      }
-      if (logintoken < 2){
-          window.alert ("Login invalido. tente novamente!")
+          window.location.href = "https://youtu.be/t4QK8RxCAwo?t=50";
       }
     </script>
 </body>
